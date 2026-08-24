@@ -1,5 +1,4 @@
-print("S096 Zainab khan")
-
+print("S096 Zainab Khan")
 import threading
 import time
 import random
@@ -74,4 +73,3 @@ for t in reader_threads + writer_threads:
     t.join()
 
 print("All readers and writers have finished.")
-
